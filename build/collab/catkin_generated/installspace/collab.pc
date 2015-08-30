@@ -1,0 +1,8 @@
+prefix=/home/carrt/ros-hydro/carrt_ws/install
+
+Name: collab
+Description: Description of collab
+Version: 0.0.1
+Cflags: -I/home/carrt/ros-hydro/carrt_ws/install/include
+Libs: -L/home/carrt/ros-hydro/carrt_ws/install/lib 
+Requires: roscpp std_msgs message_runtime pcl_ros pcl

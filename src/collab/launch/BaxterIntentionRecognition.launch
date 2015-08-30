@@ -1,0 +1,10 @@
+<!-- Launch file for Baxter Intention Recognition -->
+<!-- @author KDuncan -->
+<launch>
+	<node name="Communicator" pkg="collab" type="Communicator"/>
+	<node name="CloudReader" pkg="collab" type="CloudReader"/>
+	<!-- TODO: The following nodes stil have to be implemented -->
+	<!-- <node name="SceneParser" pkg="collab" type="SceneParser"/> -->
+	<!-- <node name="IntentionRecognizer" pkg="collab" type="IntentionRecognizer"/> -->
+	<node name="ActionPerformer" pkg="collab" type="ActionPerformer"/>
+</launch>

@@ -1,0 +1,53 @@
+# (c) K. Duncan, 2014
+# Represents an object in terms of its associated superquadric parameters
+# the object's category identity, and the action that has to be performed
+# on the object
+
+###########################
+# OBJECT / ACTION INFO    #
+###########################
+string objectName
+string actionToPerform
+
+###########################
+# SUPERQUADRIC PARAMETERS #
+###########################
+# The shape dimension for the x-axis
+float64 a1
+
+# The shape dimension for the y-axis
+float64 a2
+
+# The shape dimension for the z-axis
+float64 a3
+
+# The north-south superquadric shape parameter
+float64 e1
+
+# The east-west superquadric shape parameter
+float64 e2
+
+# The x-axis location of the centroid of this superquadric
+float64 px
+
+# The y-axis location of the centroid of this superquadric
+float64 py
+
+# The z-axis location of the centroid of this superquadric
+float64 pz
+
+# Euler rotation angle along the x-axis
+float64 phi
+
+# Euler rotation angle along the y-axis
+float64 theta
+
+# Euler rotation angle along the x-axis
+float64 psi
+
+# Tapering parameter along the x-axis
+float64 kx
+
+# Tapering parameter along the y-axis
+float64 ky
+

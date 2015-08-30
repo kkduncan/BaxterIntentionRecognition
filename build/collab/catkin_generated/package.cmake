@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "collab")
+set(collab_MAINTAINER "Kester Duncan <kkduncan@cse.usf.edu>")
+set(collab_DEPRECATED "")
+set(collab_VERSION "0.0.1")
+set(collab_BUILD_DEPENDS "pcl" "pcl_ros" "roscpp" "std_msgs" "message_generation")
+set(collab_RUN_DEPENDS "pcl" "pcl_ros" "roscpp" "std_msgs" "message_runtime")
+set(collab_BUILDTOOL_DEPENDS "catkin")

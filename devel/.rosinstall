@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/carrt/ros-hydro/carrt_ws/devel/setup.sh
